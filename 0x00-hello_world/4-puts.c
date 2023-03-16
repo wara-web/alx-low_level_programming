@@ -1,9 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 
 
-/*
- *main -prints "program is like building a multilingualpuzzle  followed by a new line"
- *return 0.
+/**
+ *main -prints "program is like building a multilingualpuzzle 
+ * followed by a new line"
+ *Return 0.
  * /
 int main(void)
 {
