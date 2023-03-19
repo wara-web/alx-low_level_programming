@@ -2,8 +2,8 @@
 #include<stdlib.h>
 #include<time.h>
 
-/** main - prints alphabet in CAPITAL and small letters
- * Return : Always 0(Success)
+/** main - starting point
+ * Return : Always 0 (Success)
  * 
  */
 
