@@ -14,7 +14,7 @@ int main(void)
 	int k;
 	char b;
 
-	for (k = '0'; k <='9'; k++)
+	for (k = '0'; k <= '9'; k++)
 	putchar(k);
 
 	for (b = 'a'; b <= 'f'; b++)
