@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * print_tirangle - prints a triangle of squares according to parameter
- * @size: the size of the square triangle
+ * print_triangle - prints a triangle of squares accroding to parameters
+ * @size: size of the square tirangle
  * Return: empty
+ *
  */
 
 void print_triangle(int size)
 {
 	int x, y, z;
 
-	if (size <= 0);
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
@@ -20,7 +21,7 @@ void print_triangle(int size)
 		{
 			for (y = size - x; y > 1; y--)
 			{
-				putchar(32);
+				_putchar(32);
 			}
 			for (z = 0; z <= x; z++)
 			{
