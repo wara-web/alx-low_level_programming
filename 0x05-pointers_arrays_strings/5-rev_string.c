@@ -5,7 +5,8 @@
  * @s: the string to modified
  * Return: void
  */
-void rec_string(char *s)
+
+void rev_string(char *s)
 {
 	int len = 0, index = 0;
 	char tmp;
